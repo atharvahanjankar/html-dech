@@ -2,53 +2,79 @@
 <html>
     <head>
         <title>form</title>
-        <style>
-            .main-body{
-                background-image:url("naruto-jiraya.jpg");
+        <!--<style>
+             .main-body{
+                 background-image:url("naruto-jiraya.jpg");
+            } 
+        </style>-->
+        <!-- <style>
+            .inp1{
+                background-color:burlywood;
             }
-        </style>
+        </style> -->
+        <link href="E:\atharva\formcss.css" rel="stylesheet" >
     </head>
     <body class="main-body">
+        
         <form>
-        <center><h1>Form </h1></center>
-        <label>First Name:</label>
-        <input type="text" placeholder="first name...." name="f_name">
-        <br/>
-        <br/>
-        <label>Middle Name:</label>
-        <input type="text" placeholder="middle name" name="m_name">
-        <br/>
-        <br/>
-        <label>Last Name:</label>
-        <input type="text" placeholder="last name..." name="l_name">
-        <br/>
-        <br/>
-        <hr/>
-        <label>Gernder:</label>
-        <input  name="gender" type="radio" 
-        >male
-        <input  name="gender" type="radio" 
-        >Female
-        <br/>
-        <lable>Dob:</lable>
-        <input type="date">
-        <hr/>
-        <lable>Hobbies:</lable>
-        <br/>
-        <input type="checkbox" name="hobbies">Sketching
-        <br/>
-        <input type="checkbox" name="hobbies">Football
-        <br/>
-        <input type="checkbox" name="hobbies">Wathching Anime
-        <br/>
-        <input type="checkbox" name="hobbies">Bikeing 
-        <br>
-        <hr>
-        <lable>Uplode addhar card:</lable>
-        <input Type="file" name="adharrcard">
-        <br/>
-        <input type="submit" value="save">
+            <center><h1>Form </h1></center>
+        <div class="inp1">
+        
+            <label>First Name:</label>
+            <input type="text" placeholder="first name...." name="f_name">
 
-            </form>
+            <br/>
+            <br/>
+        </div>
+        <div class="inp1">
+            <label>Middle Name:</label>
+            <input type="text" placeholder="middle name" name="m_name">
+            <br/>
+            <br/>
+        </div>
+        <div class="inp1">
+            <label>Last Name:</label>
+            <input type="text" placeholder="last name..." name="l_name">
+        <br/>
+            <br/>
+            </div>
+            <hr/>
+        <div class="inp1">
+            <label>Gernder:</label>
+            <input  name="gender" type="radio" 
+            >male
+            <input  name="gender" type="radio" 
+            >Female
+            <br/>
+        </div>
+        <div>
+            <lable>Dob:</lable>
+            <input type="date">
+            <hr/>
+        </div>
+        <div>
+            <lable>Hobbies:</lable>
+            <br/>
+            </div>
+            <div>
+            <input type="checkbox" name="hobbies">Sketching
+            <br/>
+            <input type="checkbox" name="hobbies">Football
+            <br/>
+            <input type="checkbox" name="hobbies">Wathching Anime
+            <br/>
+            <input type="checkbox" name="hobbies">Bikeing 
+            <br>
+            <hr>
+        </div>
+        <div>
+            <lable>Uplode addhar card:</lable>
+            <input Type="file" name="adharrcard">
+            <br/>
+        </div>
+        <div>
+            <input type="submit" value="save">
+        </div>
+        </form>
     </body>
 </html>
